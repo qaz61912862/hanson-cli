@@ -1,0 +1,25 @@
+{
+  "name": "hanson-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "bin/www",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qaz61912862/hanson-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qaz61912862/hanson-cli/issues"
+  },
+  "homepage": "https://github.com/qaz61912862/hanson-cli#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "inquirer": "^8.1.2"
+  }
+}
