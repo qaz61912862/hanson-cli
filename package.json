@@ -19,7 +19,15 @@
   },
   "homepage": "https://github.com/qaz61912862/hanson-cli#readme",
   "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.1.0",
+    "cross-spawn": "^7.0.3",
     "ejs": "^3.1.6",
-    "inquirer": "^8.1.2"
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.2",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "vue": "^2.6.14"
   }
 }
