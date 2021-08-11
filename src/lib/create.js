@@ -1,6 +1,7 @@
 const path = require('path')
 const fs = require('fs-extra')
 const inquirer = require('inquirer')
+const Generator = require('./Generator')
 
 module.exports = async function (name, options) {
   // 验证是否正常取到值
@@ -33,6 +34,9 @@ module.exports = async function (name, options) {
       if (!action) return
       console.log(`\r\nRemoving...`)
       await fs.remove(targetAir)
+      console.log('finish')
     }
   }
+  const generator = new Generator(name, targetAir);
+  generator.create();
 }
